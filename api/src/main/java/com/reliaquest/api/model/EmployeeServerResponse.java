@@ -1,4 +1,4 @@
 package com.reliaquest.api.model;
 
-public record ServerResponse<T> (T data, String status) {
+public record EmployeeServerResponse<T> (T data, String status, String error) {
 }

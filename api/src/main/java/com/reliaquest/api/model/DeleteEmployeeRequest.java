@@ -1,4 +1,6 @@
 package com.reliaquest.api.model;
 
-public class DeleteEmployeeRequest {
+import jakarta.validation.constraints.NotBlank;
+
+public record DeleteEmployeeRequest(@NotBlank String name) {
 }
